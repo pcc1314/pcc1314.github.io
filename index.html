@@ -76,7 +76,7 @@
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -95,10 +95,10 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Entradas',
+            POSTS: 'Posts',
             PAGES: 'Pages',
-            CATEGORIES: 'Categorias',
-            TAGS: 'Etiquetas',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
             UNTITLED: '(Untitled)',
         },
         ROOT_URL: '/',
@@ -129,7 +129,7 @@
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
     </div>
 
                 </td>
@@ -149,16 +149,16 @@
             <h2 id="name">PPOffice</h2>
             <h3 id="title">Web Developer &amp; Designer</h3>
             <span id="location"><i class="fa fa-map-marker"></i>Harbin, China</span>
-            <a id="follow" target="_blank" href="https://github.com/ppoffice/">SEGUIR</a>
+            <a id="follow" target="_blank" href="https://github.com/ppoffice/">FOLLOW</a>
         </div>
         <div class="article-info profile-block">
             <div class="article-info-block">
                 4
-                <span>Entradas</span>
+                <span>posts</span>
             </div>
             <div class="article-info-block">
                 0
-                <span>Etiqueta</span>
+                <span>tag</span>
             </div>
         </div>
         
@@ -206,7 +206,7 @@
 
             
             <section id="main">
-    <article id="post-彭小骚" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-struts2和springMVC的区别" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
@@ -214,7 +214,7 @@
                 
     
         <h1 itemprop="name">
-            <a class="article-title" href="/2018/01/18/彭小骚/">彭小骚</a>
+            <a class="article-title" href="/2018/01/18/struts2和springMVC的区别/">struts2和springMVC的区别</a>
         </h1>
     
 
@@ -223,7 +223,7 @@
                         
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/2018/01/18/彭小骚/">
+        <a href="/2018/01/18/struts2和springMVC的区别/">
             <time datetime="2018-01-18T07:37:59.000Z" itemprop="datePublished">2018-01-18</time>
         </a>
     </div>
@@ -239,7 +239,7 @@
         <div class="article-entry" itemprop="articleBody">
         
             
-            <p>w哈哈哈哈我是彭小骚 </p>
+            <p>1、Struts2是类级别的拦截， 一个类对应一个request上下文，SpringMVC是方法级别的拦截，一个方法对应一个request上下文, SpringMVC就容易实现restful url,而struts2比较难。Struts2 Action的一个方法可以对应一个url，而其类属性却被所有方法共享<br>2、由上边原因，SpringMVC的方法之间基本上独立requestresponse数据，请求数据通过参数获取，处理结果通过ModelMap交回给框架，方法之间不共享变量， Struts2方法之间也是独立的，但Action变量是共享的，每次来了请求就创建一个Action<br>3、Struts2针对每个request进行封装，把request，session等servlet生命周期的变量封装成一个一个Map，供给每个Action使用，并保证线程安全，耗费内存。<br>4、 拦截器实现机制上，Struts2有以自己的interceptor机制，SpringMVC用的是独立的AOP方式，Struts2的配置文件量还是比SpringMVC大。<br>5、SpringMVC的入口是servlet，而Struts2是filter，二者的机制不同<br>6、SpringMVC集成了Ajax，使用非常方便， @ResponseBody就可以实现，然后直接返回响应文本，而Struts2拦截器集成了Ajax，在Action中处理时一般必须安装插件或者自己写代码集成进去。<br>7、SpringMVC验证支持JSR303，处理起来相对更加灵活方便，而Struts2验证比较繁琐。<br>8、Spring MVC和Spring是无缝的。从这个项目的管理和安全上也比Struts2高。<br>9、 设计思想上，Struts2更加符合OOP的编程思想， SpringMVC就比较谨慎，在servlet上扩展。<br>10、SpringMVC开发效率和性能高于Struts2。</p>
 
         
         </div>
@@ -250,7 +250,7 @@
 
 </div>
 
-    <a data-url="http://yoursite.com/2018/01/18/彭小骚/" data-id="cjcn2yvby0002potxye3q1ily" class="article-share-link"><i class="fa fa-share"></i>Compartir</a>
+    <a data-url="http://yoursite.com/2018/01/18/struts2和springMVC的区别/" data-id="cjcn342540002fotx8l4roth6" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -346,7 +346,7 @@
 
 </div>
 
-    <a data-url="http://yoursite.com/2018/01/18/后台开发/" data-id="cjcn2yvc40003potxt65sp9q0" class="article-share-link"><i class="fa fa-share"></i>Compartir</a>
+    <a data-url="http://yoursite.com/2018/01/18/后台开发/" data-id="cjcn3425d0003fotxbibmslg9" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -470,7 +470,7 @@
 
 </div>
 
-    <a data-url="http://yoursite.com/2018/01/17/你好-hexo/" data-id="cjcn2yvbm0001potxyr4cek0s" class="article-share-link"><i class="fa fa-share"></i>Compartir</a>
+    <a data-url="http://yoursite.com/2018/01/17/你好-hexo/" data-id="cjcn3424i0001fotxrviqh9sv" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -598,7 +598,7 @@
 
 </div>
 
-    <a data-url="http://yoursite.com/2018/01/17/hello-world/" data-id="cjcn2yvax0000potxwkux9k3q" class="article-share-link"><i class="fa fa-share"></i>Compartir</a>
+    <a data-url="http://yoursite.com/2018/01/17/hello-world/" data-id="cjcn3423o0000fotxnor9ze7s" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -680,14 +680,14 @@
    
         
     <div class="widget-wrap">
-        <h3 class="widget-title">Recientes</h3>
+        <h3 class="widget-title">recent</h3>
         <div class="widget">
             <ul id="recent-post" class="">
                 
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/2018/01/18/彭小骚/" class="thumbnail">
+                            <a href="/2018/01/18/struts2和springMVC的区别/" class="thumbnail">
     
     
         <span class="thumbnail-image thumbnail-none"></span>
@@ -698,7 +698,7 @@
                         
                         <div class="item-inner">
                             <p class="item-category"></p>
-                            <p class="item-title"><a href="/2018/01/18/彭小骚/" class="title">彭小骚</a></p>
+                            <p class="item-title"><a href="/2018/01/18/struts2和springMVC的区别/" class="title">struts2和springMVC的区别</a></p>
                             <p class="item-date"><time datetime="2018-01-18T07:37:59.000Z" itemprop="datePublished">2018-01-18</time></p>
                         </div>
                     </li>
@@ -769,7 +769,7 @@
     
         
     <div class="widget-wrap">
-        <h3 class="widget-title">Archivos</h3>
+        <h3 class="widget-title">archives</h3>
         <div class="widget">
             <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a><span class="archive-list-count">4</span></li></ul>
         </div>
@@ -782,7 +782,7 @@
     
         
     <div class="widget-wrap widget-list">
-        <h3 class="widget-title">Links</h3>
+        <h3 class="widget-title">links</h3>
         <div class="widget">
             <ul>
                 
